@@ -1,18 +1,5 @@
 <?php
 session_start(); // On démarre la session 
-?>
-
-<!DOCTYPE html>
-<html>
-    <head>
-            <style>
-            
-            </style>
-    </head>
-
-    <!-- Page principale du site -->
-    <body>
-        <?php // Connexion à la base de données
             try{
                 $bdd = new PDO('mysql:host=localhost;dbname=sitewebcours;charset=utf8', 'Youricolas', 'Ccvxq48MnUEh');
             }
@@ -42,5 +29,3 @@ session_start(); // On démarre la session
             // Redirection vers la page principale
             header('Location: PageAccueil.php');
         ?>
-    </body>
-</html>

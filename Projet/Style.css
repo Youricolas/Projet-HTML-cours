@@ -65,12 +65,15 @@ menu-accordeon {
   }
 .Deroulant{
 float: left;
-margin-top: 15%;
+margin-top: 10%;
 margin-left: 0%;
 color: rgb(255, 255, 255);
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-text-decoration-line: underline;
 
+}
+label{
+  text-decoration-line: underline;
+  
 }
 #menu-accordeon {
     padding:0;
@@ -164,8 +167,21 @@ text-align: center;
 .ZoneCo2{
 background-color: rgba(8, 8, 8, 0.404);
 border-radius: 6px;
-text-align: left
+text-align: center;
 }
 .w50{
 width: 50%;
+}
+.Felicitation{
+float: left;
+margin-top: 20%;
+margin-left: 15%;
+color: rgb(255, 255, 255);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 60px;  
+}
+.Bouton3{
+text-align: center;
+margin-top: 35%;
+margin-left: 10%;
 }

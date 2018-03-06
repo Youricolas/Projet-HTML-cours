@@ -11,21 +11,21 @@
                     </float>
                 </br>
                     <float class="Deroulant">
-                        <li>le choix de ses paramètres vont permettre à votre pièce d'avoir l'aspect de votre choix ainsi qu'une résistance plus ou moins grande :</li> </br>
-                        <INPUT type="radio" name="Choix" value="1" checked> Menu standard : 
-                    <form>
-                            <form class="w50">
+                        <li><label>Le choix de ses paramètres vont permettre à votre pièce d'avoir l'aspect de votre choix ainsi qu'une résistance plus ou moins grande :</label></li> </br>
+                        <INPUT type="radio" name="Choix" value="1" checked> <label> Menu standard : </label> 
+                    <form action="ParametreImp.php" method="post">
+                            
                                 </br>
-                                    <select class="form-control form-control-sm" name="Qualité" size="1">
-                                    <option> Excellente (Densité 100% / Vitesse 10%)
-                                    <option> Trés bonne (Densité 70% / Vitesse 30%)
+                                    <select class="form-control form-control-sm" name="Qualité" size="1" style=" width: 30%">
+                                    <option> Excellente (Densité 100% / Vitesse 10%) </option>
+                                    <option> Trés bonne (Densité 70% / Vitesse 30%)</option>
                                     <option> Bonne (Densité 50% / Vitesse 50%)
                                     <option> Assez bonne (Densité 20% / Vitesse 80%)
                                     <option> Impression brouillon (Densité 10% / Vitesse 100%)
                                     </select>
-                            </form>
-                            <form >
-                                    <select class="form-control form-control-sm" name="Couleur" size="1">
+                                </br>
+                           
+                                    <select class="form-control form-control-sm" name="Couleur" size="1" style=" width: 10%">
                                     <option> Blanc
                                     <option> Noir
                                     <option> Gris 
@@ -40,48 +40,48 @@
                                     <option> Blanc vers violet ( réagit aux UV )
                                     <option> Blanc vers vert ( luminescent )
                                     </select>
-                            </form>
-                            <form >
-                                    <select class="form-control form-control-sm" name="Transparence" size="1">
+                                </br>
+                            
+                                    <select class="form-control form-control-sm" name="Transparence" size="1" style=" width: 10%">
                                     <option> Opaque
                                     <option> Transparent
                                     </select>
-                            </form>
-                            <form >
-                                    <select class="form-control form-control-sm" name="Matière" size="1">
+                                </br>
+                           
+                                    <select class="form-control form-control-sm" name="Matière" size="1" style=" width: 10%">
                                     <option> PLA
                                     <option> ABS ()
                             
                                     </select>
-                            </form>
-                            <INPUT  type="radio" name="Choix" value="2"> Menu avancé :
+                                </br>
+                            <INPUT  type="radio" name="Choix" value="2"> <label> Menu avancé :</label> 
                         
-                            <form ></br>
-                                    <select class="form-control form-control-sm" name="Densité" size="1">
+                            </br>
+                        </br>
+                                    <select class="form-control form-control-sm" name="Densité" size="1" style=" width: 25%">
                                     <option> Excellente (Densité 100%)
                                     <option> Trés bonne (Densité 70%)
                                     <option> Bonne (Densité 50%)
                                     <option> Assez bonne (Densité 20%)
                                     <option> Impression brouillon (Densité 10%)
                                     </select>
-                            </form>
-                            <form >
-                                    <select class="form-control form-control-sm" name="Vitesse" size="1">
+                                </br>
+                           
+                                    <select class="form-control form-control-sm" name="Vitesse" size="1" style=" width: 25%">
                                     <option> Très lente (Vitesse 10%)
                                     <option> Lente (Densité 30%)
                                     <option> Moyenne (Vitesse 50% )
                                     <option> Rapide (Vitesse 80%)
                                     <option> Impression brouillon (Vitesse 100%)
                                     </select>
-                            </form>
-                            <form >
-                                    <select class="form-control form-control-sm" name="Support" size="1">
+                                </br>
+                                    <select class="form-control form-control-sm" name="Support" size="1" style=" width: 15%">
                                     <option> Support : Non
                                     <option> Support : Oui
                                     </select>
-                            </form>
-                            <form >
-                                    <select class="form-control form-control-sm" name="Couleur" size="1">
+                                </br>
+                            
+                                    <select class="form-control form-control-sm" name="Couleur" size="1" style=" width: 10%">
                                     <option> Blanc
                                     <option> Noir
                                     <option> Gris 
@@ -96,22 +96,24 @@
                                     <option> Blanc vers violet ( réagit aux UV )
                                     <option> Blanc vers vert ( luminescent )
                                     </select>
-                            </form>
-                            <form >
-                                    <select class="form-control form-control-sm" name="Transparence" size="1">
+                                </br>
+                                    <select class="form-control form-control-sm" name="Transparence" size="1" style=" width: 10%">
                                     <option> Opaque
                                     <option> Transparent
                                     </select>
-                            </form>
-                            <form >
-                                    <select class="form-control form-control-sm" name="Matière" size="1">
+                                </br>
+                                    <select class="form-control form-control-sm" name="Matière" size="1" style=" width: 10%">
                                     <option> PLA
                                     <option> ABS 
                             
                                     </select>
-                            </form>
+        
+                        </br>
+                        <input class="Bouton1"  type="submit" value="Valider">
+                        <input class="Bouton1"  type="submit" value="Devis instantané">   
                         </form>
                     </float>
+                   
                     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
